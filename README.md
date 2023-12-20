@@ -1,4 +1,4 @@
-#### use MongoDb in Rn like localStorage api in Web 👋
+#### use MongoDb to Cache in RN like localStorage/IndexDB api in Web 👋
 
 ### Getting Start
 ```
@@ -9,7 +9,7 @@ yarn add react-native-cache-database
 #### Usa Img Cache
 Cache img as base64 to Load Image fast 🚀
 <br>
-Tests: opens in **seconds** in apps with a lot of image resources
+Tests: Cache Locally, Load all cached resources **in an instant**
 #### For Single
 ```ts
   const mergedSourceUri = getCacheBySrc(source?.url);
