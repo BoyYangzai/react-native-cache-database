@@ -1,0 +1,25 @@
+{
+  "name": "@hydrox-mobile/cache",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "dev": "npx tsc --watch",
+    "build": "npx tsc --build",
+    "depcheck": "depcheck",
+    "lint": "npx eslint . --ext .ts,.tsx",
+    "upgrade": "npm-check-updates -u",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "@realm/react": "^0.6.2",
+    "react": "^18.2.0",
+    "realm": "^12.5.0"
+  },
+  "devDependencies": {
+    "@shopify/typescript-configs": "^5.1.0",
+    "@types/react": "^18.2.34",
+    "typescript": "^5.3.3"
+  }
+}
